@@ -1,0 +1,8 @@
+{
+  "source": "src",
+  "target": "build",
+  "fullPath": {
+    "index": "./view/index.html",
+    "buldle": "bundle.js"
+  }
+}

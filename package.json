@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ohjihwan-nbt/vue-default-structure.git"
+    "url": "git+https://github.com/fureweb-com/vuejs-basic-structure.git"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ohjihwan-nbt/vue-default-structure/issues"
+    "url": "https://github.com/fureweb-com/vuejs-basic-structure/issues"
   },
-  "homepage": "https://github.com/ohjihwan-nbt/vue-default-structure#readme",
+  "homepage": "https://github.com/fureweb-com/vuejs-basic-structure#readme",
   "dependencies": {
     "axios": "^0.18.0",
     "babel-polyfill": "^6.26.0",

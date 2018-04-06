@@ -1,0 +1,2 @@
+nav.app-nav ul { padding: 0 0; margin: 0 0 }
+nav.app-nav li { display: inline-block; min-width: 50px; padding: 5px 5px; height: 30px; line-height: 30px; text-align: center }

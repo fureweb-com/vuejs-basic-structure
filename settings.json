@@ -3,6 +3,6 @@
   "target": "build",
   "fullPath": {
     "index": "./view/index.html",
-    "buldle": "bundle.js"
+    "bundle": "bundle.js"
   }
 }

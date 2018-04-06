@@ -19,24 +19,25 @@
   "homepage": "https://github.com/fureweb-com/vuejs-basic-structure#readme",
   "dependencies": {
     "axios": "^0.18.0",
-    "babel-polyfill": "^6.26.0",
     "jquery": "^3.3.1",
     "lodash": "^4.17.5",
     "tree-cli": "^0.4.12",
     "vue": "^2.5.16",
     "vue-router": "^3.0.1",
-    "vue-template-compiler": "^2.5.16",
-    "webpack": "^4.5.0"
+    "vue-template-compiler": "^2.5.16"
   },
   "devDependencies": {
     "babel-loader": "^7.1.4",
+    "babel-polyfill": "^6.26.0",
     "css-loader": "^0.28.11",
     "grunt": "^1.0.2",
     "grunt-shell": "^2.1.0",
+    "http-server": "^0.11.1",
     "vue-loader": "^14.2.2",
     "vue-style-loader": "^4.1.0",
     "vue-template-loader": "^0.4.1",
     "vuejs-loader": "^2.1.0",
+    "webpack": "^4.5.0",
     "webpack-cli": "^2.0.13"
   }
 }

@@ -13,6 +13,9 @@ module.exports = function (grunt) {
       },
       webpack: {
         command: ['npx webpack'].join('&&')
+      },
+      httpServer: {
+        command: ['cd ./build', 'http-server'].join('&&')
       }
     }
   })
@@ -20,5 +23,6 @@ module.exports = function (grunt) {
   grunt.registerTask('clean', ['shell:clean'])
   grunt.registerTask('makeHtml', ['shell:makeHtml'])
   grunt.registerTask('bundling', ['shell:webpack'])
-  grunt.registerTask('build', ['clean', 'makeHtml', 'bundling'])
+  grunt.registerTask('httpServer', ['shell:httpServer'])
+  grunt.registerTask('build', ['clean', 'makeHtml', 'bundling', 'httpServer'])
 }
